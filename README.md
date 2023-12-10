@@ -1,18 +1,13 @@
 # CIS-7-Project-Blackjack
 Author: Alice Diaz
 
-project general description and programming approaches, authors (you and team members), date published and basic instructions on how to use your program. 
-
 Description: 
-    I created a blackjack game that is realistic to actual blackjack one would play at a casino. However, I’m also providing the player with certain calculations to incorporate discrete structures. 
-To create a realistic blackjack game, I start the player with a high amount of money, and I allow them to make a bet before a game starts. I also included the ability to double-down, which doubles their bet, 
-and the ability to forfeit, which lets them keep half their bet. The final piece to making the game feel realistic was giving the cards the ability to be “facedown”. This means that when the player is making 
-decisions, they’re only able to see one of the dealer’s cards. In order to include discrete structure methods, I provide for each hand the chance the player has to hit twenty-one or bust on their next hit, 
-and the chance the dealer has to hit twenty-one before they reveal their facedown card and potentially hit one more time. My objective is to provide the player with a realistic blackjack experience that 
-offers them the ability to use probability to learn and strategize to their own advantage.
+    I created a blackjack game that is realistic to actual blackjack one would play at a casino. I start the player with a high amount of money, and I allow them to make a bet before a game starts. I also 
+included the ability to double-down, which doubles their bet, and the ability to forfeit, which lets them keep half their bet. The final piece to making the game feel realistic was giving the cards the 
+ability to be “facedown”. This means that when the player is making decisions, they’re only able to see one of the dealer’s cards. However, I’m also providing the player with certain calculations to incorporate discrete structures. For each hand, I provide the chance the player has to hit twenty-one or bust on their next hit, and the chance the dealer has to hit twenty-one before they reveal their facedown card and potentially hit one more time. My objective is to provide the player with a realistic blackjack experience that offers them the ability to use probability to learn and strategize to their own advantage.
     I programmed the game with an object oriented method. I the main classes are Game, Player, Deck, and Card. Each time the player plays a game, a new Game object is created. The game object has a gameLoop()
 method that incorporates all of the other classes and their associated method calls. Discrete structure concepts are used to calculate the chance to bust or to hit twenty-one on a given hand. One such method
-is the use of combinatorics to create a forumla to represent the dealer's chance to hit twenty-one within their first potential hit.
+is the use of combinatorics to create a forumla that represents the dealer's chance to hit twenty-one within their first potential hit. 
 
 Instructions:
     To play the game, you will have to open the CIS 7 Project.sln file in Microsoft Visual Studio. Once open, you can start the program. It will ask you to enter your name. Then it'll ask you if you'd like to
